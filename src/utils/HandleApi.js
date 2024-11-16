@@ -4,7 +4,7 @@
 
 import axios from "axios";
 
-const baseUrl = "http://localhost:5000"; // This is the base URL for your backend API, which is running on localhost:5000. It is used as the root path for all the API calls in your to-do app.
+const baseUrl = "https://mernstack-foodie-backend-1.onrender.com"; // This is the base URL for your backend API, which is running on localhost:5000. It is used as the root path for all the API calls in your to-do app.
 
 const getAllToDo = (setToDo) => {
   // Purpose: Fetches all to-do items from the backend and updates the frontend state.
