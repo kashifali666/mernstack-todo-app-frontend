@@ -1,10 +1,10 @@
-// Overview:
 
-// This file handles all the communication between the frontend and backend of your app using axios to make HTTP requests. Each function interacts with your backend API to perform CRUD operations (Create, Read, Update, Delete) for the to-do items.
+
+
 
 import axios from "axios";
 
-const baseUrl = "https://mernstack-foodie-backend-1.onrender.com"; // This is the base URL for your backend API, which is running on localhost:5000. It is used as the root path for all the API calls in your to-do app.
+const baseUrl = "https://mernstack-todo-app-backend-dqwl.onrender.com"; 
 
 const getAllToDo = (setToDo) => {
   // Purpose: Fetches all to-do items from the backend and updates the frontend state.
